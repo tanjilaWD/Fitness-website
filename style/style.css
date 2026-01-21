@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    background-color: rgba(0,0,0,1);
+    color: #fff;
+}
+/* Navber design */
+nav{
+    border: 2px solid red;
+    padding: 5px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+nav>p{
+    font-size: 36px;
+    color: #E6533C;
+    font-weight: bold;
+}
+nav>div{
+    border: 1px solid rgb(86, 84, 84);
+    display: flex;
+    gap:47px;
+    align-items: center;
+    border-radius: 40px;
+    padding: 2px 5px;
+}
+nav>span{
+    margin-right: 5px;
+    display: none;
+}
+.home-btn{
+    background-color:#E6533C ;
+    padding: 5px 10px;
+    border-radius: 45px;
+}
