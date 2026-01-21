@@ -40,3 +40,31 @@ nav>span{
     padding: 5px 10px;
     border-radius: 45px;
 }
+
+/* Banner Section */
+.banner-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid red;
+    min-height: 400px;
+    padding: 10px;
+    display: flex;
+}
+.banner-left{
+    border: 2px solid rgb(14, 37, 184);
+    min-height:200px ;
+    width: 50%;
+}
+.banner-left p{
+    margin: 28px 0;
+    line-height: 28px;
+
+}
+.banner-left h1{
+    font-size: 78px;
+}
+.banner-right{
+    border: 2px solid rgb(144, 209, 14);
+    min-height:200px ;
+    width: 50%;
+}
