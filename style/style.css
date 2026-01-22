@@ -10,7 +10,7 @@ body{
 }
 /* Navber design */
 nav{
-    border: 2px solid red;
+   
     padding: 5px;
     display: flex;
     max-width: 1200px;
@@ -35,36 +35,73 @@ nav>span{
     margin-right: 5px;
     display: none;
 }
-.home-btn{
-    background-color:#E6533C ;
-    padding: 5px 10px;
-    border-radius: 45px;
-}
-
 /* Banner Section */
 .banner-container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px solid red;
     min-height: 400px;
     padding: 10px;
     display: flex;
 }
 .banner-left{
-    border: 2px solid rgb(14, 37, 184);
     min-height:200px ;
     width: 50%;
 }
 .banner-left p{
     margin: 28px 0;
     line-height: 28px;
-
+}
+.btn-container>button{
+    width:200px;
+    height: 54px;
+    border-radius: 42px;
+    color: #fff;
+}
+.home-btn{
+    background-color:#E6533C ;
+    padding: 5px 10px;
+    border-radius: 45px;
 }
 .banner-left h1{
     font-size: 78px;
 }
 .banner-right{
-    border: 2px solid rgb(144, 209, 14);
     min-height:200px ;
     width: 50%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.banner-right>img{
+    width:55%;
+    /* object-fit: cover; */
+}
+.tooltip{
+    background-color: rgba(128, 128, 128, 0.37);
+    position: absolute;
+    right: -10%;
+    width: 193px;
+    height: 98px;
+    padding: 20px 0 0 20px;
+    border-radius: 12px;
+    top: 25%; 
+}
+.tooltip2{
+    background-color: rgba(32, 32, 32, 0.684);
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    padding: 20px;
+    border-radius: 12px;
+    left:25%;
+    top: 70%;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.ball{
+ width: 40px; 
+ height: 40px;
+ background-color: #E6533C;
+ border-radius: 50%;  
 }
