@@ -4,5 +4,22 @@
     }
     nav>span{
     display:inline;
-}
+    }
+    .banner-container{
+     flex-direction: column;
+    }
+    .banner-right,
+    .banner-left,
+    .banner-right>img{
+      width: 100%;
+    }
+    .tooltip{
+    top: 10%; 
+    left: 52%;
+   }
+   .tooltip2{
+    top: 45%;
+    left: 0%;
+   }
+    
 }
