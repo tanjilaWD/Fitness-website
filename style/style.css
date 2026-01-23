@@ -140,15 +140,27 @@ nav>span{
     margin-top: 50px;
 }
 .habit h1{
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 40px;
+}
+.habit p{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #dcd3d3;
+    line-height: 28px;
 }
 .habit-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    gap: 30px;
 }
 .habit-grid img{
     width: 180px;
     height: 180px;
     border-radius: 50%;
+    margin: 20px 0;
+}
+.habit-grid p{
+    color: #dcd3d3;
+    line-height: 25px;
 }

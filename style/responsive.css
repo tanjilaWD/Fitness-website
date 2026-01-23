@@ -56,5 +56,23 @@
    .box-3,
    .box-6{
    display: none;
-  }    
+  } 
+  .habit-grid{
+    grid-template-columns: repeat(1,1fr);
+    width: 230px;
+    margin: 0 auto;
+} 
+.habit{
+  padding:0 10px ;
+} 
+.habit-grid img{
+    margin: 10px 0;
+} 
+.habit-grid p{
+    color: #dcd3d3;
+    line-height: 20px;
+}
+.habit-grid{
+    gap: 15px;
+}
 }
