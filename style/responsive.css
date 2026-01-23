@@ -13,6 +13,29 @@
     .banner-right>img{
       width: 100%;
     }
+    .banner-left h1{
+    font-size: 36px;
+    font-weight: 900;
+    }
+    .btn-container{
+    display: flex;
+    gap: 10px;
+   justify-content: center;
+   padding-bottom: 30px;
+   }
+    .btn-container>button{
+    width:150px;
+    height: 54px;
+}
+.tooltip,
+.tooltip2{
+ width: 185px;
+  height: 93px;
+}
+.home-btn{
+    padding: 4px 7px;
+    border-radius: 45px;
+}
     .tooltip{
     top: 10%; 
     left: 52%;
@@ -27,11 +50,11 @@
    .box-2{
     grid-column:auto;
    }
-.box-4{
+   .box-4{
     grid-column:auto;
   }
-.box-3,
-.box-6{
-display: none;
-}    
+   .box-3,
+   .box-6{
+   display: none;
+  }    
 }
