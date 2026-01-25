@@ -122,7 +122,10 @@ nav>span{
 .grid-container>div>p{
     position: absolute;
     z-index: 50;
-    top: 0;
+    bottom: 32px;
+   left: 20px;
+   color: rgba(255, 255, 255, 1);
+   font-size: 14px;
 }
 .box-2{
     /* grid-column: 2/span 2; */
@@ -202,3 +205,4 @@ nav>span{
     border: none;
     margin-top: 15px;
 }
+
